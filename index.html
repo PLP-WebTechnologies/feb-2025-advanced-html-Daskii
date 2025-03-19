@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Site</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Join Our Community</h1>
+    </header>
+
+    <!-- Ordered List Section -->
+    <section>
+        <h2>Our Top Priorities</h2>
+        <ol type="I">
+            <li>Enhancing User Experience</li>
+            <li>Strengthening Security</li>
+            <li>Expanding Features</li>
+            <li>Optimizing Performance</li>
+            <li>Ensuring Accessibility</li>
+        </ol>
+    </section>
+
+    <!-- External Image Section -->
+    <section>
+        <h2>Find Inspiration</h2>
+        <img src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg" alt="Scenic View" width="600">
+    </section>
+
+    <!-- Contacts Table Section -->
+    <section>
+        <h2>Contacts</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sipho Mthembu</td>
+                    <td>12 Vilakazi St, Soweto</td>
+                    <td>+27 72 345 6789</td>
+                    <td>sipho.m@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mpendulo Maduna</td>
+                    <td>45 Beach Rd, Durban</td>
+                    <td>+27 83 456 7890</td>
+                    <td>mpendulo@example.com</td>
+                </tr>
+                <tr>
+                    <td>Thabo Khumalo</td>
+                    <td>78 Long St, Cape Town</td>
+                    <td>+27 61 987 6543</td>
+                    <td>thabo.k@example.com</td>
+                </tr>
+                <tr>
+                    <td>Lerato Moeketsi</td>
+                    <td>34 Nelson Mandela Dr, Pretoria</td>
+                    <td>+27 79 654 3210</td>
+                    <td>lerato.m@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jabu Nkosi</td>
+                    <td>56 Umlazi Rd, Durban</td>
+                    <td>+27 84 321 9876</td>
+                    <td>jabu.n@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section>
+        <h2>Sign Up Today</h2>
+        <form action="#" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <br>
+            
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br>
+            
+            <label for="password">Create Password:</label>
+            <input type="password" id="password" name="password" placeholder="Choose a password" required>
+            <br>
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br>
+            
+            <!-- Dropdown -->
+            <label for="province">Select Your Province:</label>
+            <select id="province" name="province">
+                <option value="gp">Gauteng</option>
+                <option value="wc">Western Cape</option>
+                <option value="kzn">KwaZulu-Natal</option>
+                <option value="ec">Eastern Cape</option>
+            </select>
+            <br>
+            
+            <!-- Radio Buttons -->
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            <br>
+            
+            <!-- Checkboxes -->
+            <p>Hobbies:</p>
+            <input type="checkbox" id="sports" name="Hobbies" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="music" name="Hobbies" value="music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="tech" name="Hobbies" value="tech">
+            <label for="tech">Technology</label>
+            <br>
+            
+            <button type="submit">Register</button>
+        </form>
+    </section>
+</body>
+</html>
